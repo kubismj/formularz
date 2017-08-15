@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   
+    <form action="https://formspree.io/kubis.m.j@gmail.com"
+      method="POST">
+      
+    <label id="imie">Imie</label>
+    	<input type="text" name="name" id="imie"><br>
+    
+    <label id="nazwisko">Nazwisko</label>
+    	<input type="text" name="nazwisko" id="nazwisko"><br>
+    
+    <label id="email">Email</label>
+    	<input type="text" name="email" id="email"><br>
+    
+    <label id="nr-tel">Nr tel</label>
+    	<input type="text" name="nr-tel" id="nr-tel"><br>
+    
+    <label for="miasto">Miasto</label>
+       	<select id="miasto">
+        <option type="radio" name="miasto" value="krakow">Krakow<br>
+        <option type="radio" name="miasto" value="warszawa">Warszawa<br>
+        <option input type="radio" name="miasto" value="gdansk">Gdansk<br>
+    	</select>
+    
+    <p>Płeć:</p>
+    <label id="plec"></label>
+    	<input type="radio" name="plec" checked>Mężczyzna<br>
+    	<input type="radio" name="plec" checked>Kobieta<br>
+    
+  	<p></p>
+    <label id="zgoda">Zgoda na przetwarzanie danych:</label>
+		<input type="checkbox">Wyrażam zgodę na przetwarzanie podanych danych osobowych w celach ......<br>
+    
+    <p></p>
+    <label id="wiadomosc">Wiadomość:</label>
+		<input type="textarea" maxlength="1000"><br>
+    
+    <p></p>
+	<label id="submit">Wyślij formularz:</label>
+    	<input type="submit" name="submit" value="wyślij"><br>
+    
+    </form>
+
+</body>
+</html>
